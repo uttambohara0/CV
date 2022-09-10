@@ -1,0 +1,169 @@
+/*Element/ Tag CSS */
+* {
+    font-family:sans-serif;
+    margin: 0px;
+}
+
+body {
+    border: 4px solid black;
+    width: 750px;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+hr {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-style: dotted none none none;
+    border-width: 12px;
+    border-color: brown;
+    
+    height: 7px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+/* Semantic CSS */
+.header1 {
+    font-size: 23px;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 15px;
+}
+
+.price {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.shipping {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 25px;
+
+}
+
+.product_detail {
+    margin-bottom: 15px;
+}
+
+
+/*For colouring > using 5 divs */
+.overall_h1 {
+    margin: 3px;
+    margin-left: 0px;
+
+}
+
+#div1, #div2, #div3, #div4, #div5 {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+#div1 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+}
+#div2 {
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+}
+#div3 {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+#div4 {
+    height: 25px;
+    width: 25px;
+    background-color: yellow;
+}
+#div5 {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+}
+
+.products_details {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.unordered {
+    padding-left: 15px;
+
+}
+
+.products_details {
+    margin-bottom: 10px;
+}
+.unordered li {
+    margin-bottom: 11px;
+}
+
+.cart {
+    width: 100%;
+    height: 48px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+
+}
+
+.cart p {
+    margin-top: 12px;
+}
+
+.cart a:link, .cart a:visited{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cart a:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cart:hover {
+    width: 100%;
+    height: 48px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+
+}
+
+/* Adding sale button on the top"*/
+header p {
+    text-transform: uppercase;
+    width: 50px;
+    height: 25px;
+    border: red;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-left: 4px;
+    position: absolute;
+    top: 5px;
+    left: 170px;
+    
+
+
+}
+
